@@ -1,1 +1,2 @@
-rsync -rtvzP ../ zomombi@jamesrobins.xyz:/var/www/jamesrobins.xyz/
+source ./config.sh
+rsync $rsync_flags $root_directory $website_location
