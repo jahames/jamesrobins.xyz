@@ -1,0 +1,1 @@
+rsync -rtvzP ../ zomombi@jamesrobins.xyz:/var/www/jamesrobins.xyz/
