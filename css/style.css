@@ -4,6 +4,7 @@ body {
     background: black;
     color: beige;
     font-family: sans-serif;
+    text-align: center;
 }
 
 header {
@@ -30,11 +31,11 @@ p {
     text-align: center;
 }
 
-p a {
+a {
     color: thistle;
 } 
 
-p a:hover{
+a:hover{
     color: palevioletred;
 }
 
@@ -61,4 +62,8 @@ img {
 
 .topnav a:hover {
     color:  palevioletred;
+}
+
+ul {
+    text-align: center;
 }
