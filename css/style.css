@@ -18,6 +18,7 @@ h1 {
 
 header h1 {
     font-size: 50px;
+    margin: 20px 0px 0px 0px;
 }
 
 main {
@@ -34,4 +35,22 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 66%;
+}
+
+.topnav {
+    overflow: hidden;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.topnav a {
+    text-align: center;
+    color: thistle;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+}
+
+.topnav a:hover {
+    color:  palevioletred;
 }
