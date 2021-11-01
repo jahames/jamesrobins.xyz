@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/roxy_prof.png">
+    <title>James Robins' Website</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>UQCS Hackathon 2021 - Wikitrivia</h1>
+
+        <div class="topnav">
+            <a class="active" href="/index.html">Home</a>
+            <a href="/projects.html">Projects</a>
+            <a href="https://github.com/jahames">Github</a>
+            <a href="https://letterboxd.com/zomombi">Letterboxd</a>
+            <a href="/blog.html">Blog</a>
+        </div> 
+    </header>
+
+    <main>
+        <h2>The Hackathon</h2>
+        <p>For the UQ Computing Society (UQCS) Hackathon, my team consisting of some old friends (Bobby Melhem, Chase Dart and Connor Raggatt), and one tagalong (Yash Talekar), decided
+            to build a trivia question generator using Wikipedia articles. As the developer with the most experience in web development,
+            honestly not all that much but still more than the others, I built out our Flask web app, HTML pages, Javascript scripts and all the
+            game logic. Yash Talekar helped me with this also. All the other team members worked on building a trivia question generator. Bobby Melhem
+            helped me hook up the generator to my game system, and then we were done. Connor Raggatt was the idea man for this project, and Chase Dart helped
+            implement the question rejection function for generating questions.
+        </p>
+
+        <p>The app was created in Python 3 with Flask and Python-SocketIO. To serve static files a REST API was setup with Flask, and to implement game communications
+            SocketIO was used. The question generator performed basic natural language processing using a number of Python libraries such as Numpy and Pandas. We used a
+            Wikipedia API wrapper to poll pages nested within category pages, then we used NLP to remove the article name from the first paragraph of the article. We then
+            performed checking to confirm whether or not the question was good. Finally Google Trends was used to find similar objects that could be used as fake answers,
+            there was quality checking done here.
+        </p>
+
+        <p>This was a really fun experience and I now regret not getting involved in Hackathons sooner.
+        </p>
+
+        <p>Repository: <a href="https://github.com/jahames/Wikitrivia">Here</a></p>
+
+        <p>-James Robins
+        </p>
+
+        <h2>Team Pictures!</h2>
+        <img src="../img/uqcs-hack-2021-3.webp"></image>
+        <p>Left to right: Yash, Chase, James</p>
+
+        <img src="../img/uqcs-hack-2021-1.webp"></image>
+        <p>Left to right: Chase, Connor, Yash, Linden (a spy from another team), James</p>
+
+        <img src="../img/uqcs-hack-2021-2.webp"></image>
+        <p>Left to right: Connor, James, Yash, Chase</p>
+
+    </main>
+
+</body>
