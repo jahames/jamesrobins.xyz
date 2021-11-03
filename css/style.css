@@ -46,6 +46,10 @@ img {
     width: 80%;
 }
 
+#profile {
+    border-radius: 40%;
+}
+
 .topnav {
     overflow: hidden;
     max-width: 900px;
